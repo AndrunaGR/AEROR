@@ -1,0 +1,84 @@
+#Лысик {
+  width: 17vw;
+  position:  absolute;
+  top: 0.8vw;
+  right: 1vw;
+}
+#Лого {
+  width: 18vw;
+  position:  absolute;/*relative*//*минимальный размер шрифта, размер шрифта по макету - минимальный, минимальное разрешение экрана, ширина мекетаcalc(10px + 16 * ((100vw - 640px) / (1920 - 640)))*/
+  top: 1vw;
+  left: 40vw;
+}
+div {font-size: 1.5vw; font-family: -apple-system, BlinkMacSystemFont, Open Sans, Roboto,Helvetica Neue, Helvetica, sans-serif;}
+a {text-decoration: none;}
+
+#a1 {margin: 0.5vw; border: 0.15vw solid; padding: 0.1vw; border-radius: 0.5vw; background-color:#E8EDF3;}
+#a2 {margin: 0.5vw; border: 0.15vw solid; padding: 0.1vw; border-radius: 0.5vw; background-color:#E8EDF3;}
+#a3 {margin: 0.5vw; border: 0.15vw solid; padding: 0.1vw; border-radius: 0.5vw; background-color:#E8EDF3;}
+#a4 {margin: 0.5vw; border: 0.15vw solid; padding: 0.1vw; border-radius: 0.5vw; background-color:#E8EDF3;}
+#a5 {margin: 0.5vw; border: 0.15vw solid; padding: 0.1vw; border-radius: 0.5vw; background-color:#E8EDF3;}/*#6E6E6E#E77D19#39AA34#3581BF#9E125*/
+a{color: black;}
+.Меню{
+  position:  absolute;
+  top: 7vw;
+  left: 17vw;
+}
+.Приветствие{
+  position:  absolute;
+  top: 11vw;
+  left: 4vw;
+  right: 16vw;
+}
+.sample {
+  width: 24vw;   
+  position:  relative;
+  top: 8vw;
+  left: 1.3vw;
+  border-radius: 1vw 1vw 1vw 1vw;
+  border-style: solid;
+  border-width: 2px;
+  border-color: ##6E6E6E;
+  }
+  
+.Контакты {
+  position:  absolute;
+  top: 11vw;
+  left: 10vw;
+}
+#Z1 {
+  width: 5vw;   
+  position:  absolute;
+  top: 1vw;
+  left: 20vw;
+}
+#Z2 {
+  width: 5vw;   
+  position:  absolute;
+  top: 1vw;
+  left: 30vw;
+}
+#Z3 {
+  width: 5vw;   
+  position:  absolute;
+  top: 1vw;
+  left: 40vw;
+}
+#Z4 {
+  width: 5vw;   
+  position:  absolute;
+  top: 1vw;
+  left: 50vw;
+}
+#Z5 {
+  width: 5vw;   
+  position:  absolute;
+  top: 1vw;
+  left: 60vw;
+}
+#Z6 {
+  height: 5vw;   
+  position:  absolute;
+  top: 1vw;
+  left: 70vw;
+}
