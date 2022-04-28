@@ -1,40 +1,88 @@
+body {
+  background-image:
+    linear-gradient(#E8EDF3 0.2vw, transparent 0.2vw),
+    linear-gradient(90deg, #E8EDF3 0.2vw, transparent 0.2vw);
+  background-size: 10vw 10vw, 10vw 10vw;
+}
+
+
 #Лысик {
   width: 17vw;
   position:  absolute;
   top: 0.8vw;
   right: 1vw;
 }
-#Лого {
-  width: 18vw;
-  position:  absolute;/*relative*//*минимальный размер шрифта, размер шрифта по макету - минимальный, минимальное разрешение экрана, ширина мекетаcalc(10px + 16 * ((100vw - 640px) / (1920 - 640)))*/
-  top: 1vw;
-  left: 40vw;
-}
 div {font-size: 1.5vw; font-family: -apple-system, BlinkMacSystemFont, Open Sans, Roboto,Helvetica Neue, Helvetica, sans-serif;}
 a {text-decoration: none;}
 
-#a1 {margin: 0.5vw; border: 0.15vw solid; padding: 0.1vw; border-radius: 0.5vw; background-color:#E8EDF3;}
-#a2 {margin: 0.5vw; border: 0.15vw solid; padding: 0.1vw; border-radius: 0.5vw; background-color:#E8EDF3;}
-#a3 {margin: 0.5vw; border: 0.15vw solid; padding: 0.1vw; border-radius: 0.5vw; background-color:#E8EDF3;}
-#a4 {margin: 0.5vw; border: 0.15vw solid; padding: 0.1vw; border-radius: 0.5vw; background-color:#E8EDF3;}
-#a5 {margin: 0.5vw; border: 0.15vw solid; padding: 0.1vw; border-radius: 0.5vw; background-color:#E8EDF3;}/*#6E6E6E#E77D19#39AA34#3581BF#9E125*/
-a{color: black;}
-.Меню{
-  position:  absolute;
-  top: 7vw;
-  left: 17vw;
+#a1 {
+	border: 0.15vw solid; 
+	padding: 0.15vw; 
+	padding-left: 0.3vw; 
+	padding-right: 0.3vw; 
+	border-radius: 0.75vw; 
+	background-color:#E8EDF3; 
+    position:  absolute;
+    top: 7vw;
+    left: 20vw;
 }
+#a2 {
+	border: 0.15vw solid; 
+	padding: 0.15vw; 
+	padding-left: 0.3vw; 
+	padding-right: 0.3vw; 
+	border-radius: 0.75vw; 
+	background-color:#E8EDF3;
+	position:  absolute;
+    top: 7vw;
+    left: 28.1vw;
+}
+#a3 {
+	border: 0.15vw solid; 
+	padding: 0.15vw; 
+	padding-left: 0.3vw; 
+	padding-right: 0.3vw; 
+	border-radius: 0.75vw; 
+	background-color:#E8EDF3;
+	position:  absolute;
+    top: 7vw;
+    left: 47.5vw;
+}
+#a4 {
+	border: 0.15vw solid; 
+	padding: 0.15vw; 
+	padding-left: 0.3vw; 
+	padding-right: 0.3vw; 
+	border-radius: 0.75vw; 
+	background-color:#E8EDF3;
+	position:  absolute;
+    top: 7vw;
+    left: 60.8vw;
+}
+#a5 {
+	border: 0.15vw solid; 
+	padding: 0.15vw; 
+	padding-left: 0.3vw; 
+	padding-right: 0.3vw; 
+	border-radius: 0.75vw; 
+	background-color:#E8EDF3;
+    position:  absolute;
+    top: 7vw;
+    left: 72.8vw;
+}
+a{color: black;}
 .Приветствие{
   position:  absolute;
   top: 11vw;
   left: 4vw;
   right: 16vw;
 }
+
 .sample {
   width: 24vw;   
   position:  relative;
-  top: 8vw;
-  left: 1.3vw;
+  top: 10vw;
+  left: 0.5vw;
   border-radius: 1vw 1vw 1vw 1vw;
   border-style: solid;
   border-width: 2px;
@@ -50,35 +98,35 @@ a{color: black;}
   width: 5vw;   
   position:  absolute;
   top: 1vw;
-  left: 20vw;
+  left: 22.5vw;
 }
 #Z2 {
   width: 5vw;   
   position:  absolute;
   top: 1vw;
-  left: 30vw;
+  left: 32.5vw;
 }
 #Z3 {
   width: 5vw;   
   position:  absolute;
   top: 1vw;
-  left: 40vw;
+  left: 42.5vw;
 }
 #Z4 {
   width: 5vw;   
   position:  absolute;
   top: 1vw;
-  left: 50vw;
+  left: 52.5vw;
 }
 #Z5 {
   width: 5vw;   
   position:  absolute;
   top: 1vw;
-  left: 60vw;
+  left: 62.5vw;
 }
 #Z6 {
   height: 5vw;   
   position:  absolute;
   top: 1vw;
-  left: 70vw;
+  left: 73vw;
 }
